@@ -1,0 +1,173 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>CSBDeep | Galerie</title>
+	<link rel=icon href=img/favicon.png>
+    <link rel="stylesheet" href="build/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,500" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/script.js"></script>
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body id="page-gallery">
+
+	<div class="vwrapper">
+		<div class="headergroup">
+			<header>
+				<div class="wrapper" id="headerimg"></div>
+			</header>
+			<div class="wrapper">
+				<div class="line firstline left">
+					<div class="box nexttomedia logobox">
+						<div class="box border">
+							<div id="logo"><a href="index.html"></a></div>
+							<ul>
+								<li><a href="https://github.com/mpicbg-csbd/CSBDeep/wiki">Go to <strong>WIKI</strong></a></li>
+								<li><a href="https://github.com/mpicbg-csbd/CSBDeep">View on <strong>GitHub</strong></a></li>
+								<li><a href="mailto:jug@mpi-cbg.de">Write a <strong>Mail</strong></a></li>
+							</ul>
+						</div>
+						<ul id="linkhome" class="headerlink">
+							<li><a href="index.html">Go <strong>Home</strong></a></li>
+						</ul>
+					</div>
+					<div class="box welcome">
+						<h1>Gallery</h1>
+						<p>Please scroll through the image area to watch all examples.</p>
+						<ul id="gallerylinks">
+							<li><a href="#denoisingplanaria">Denoising <strong>Planaria</strong></a></li>
+							<li><a href="#denoisingtribolium">Denoising <strong>Tribolium</strong></a></li>
+							<li><a href="#isonetretina">Isonet <strong>Retina</strong></a></li>
+							<li><a href="#projectionflywing">Projection <strong>Flywing</strong></a></li>
+							<li><a href="#tubulessrrf">Reconstr. of <strong>Microtubules</strong></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<section class="wrapper">
+
+			<!-- MODEL GALLERY -->
+			<div class="border box gallery">
+
+				<div class="line title">
+					<div class="box media" id="denoisingplanaria"><div class="img"></div></div>
+					<div class="box nexttomedia">
+						<em>scroll to see reconstructions...</em>
+						<h3>3D Denoising (Planaria)</h3>
+						<span><a href="https://github.com/mpicbg-csbd/CSBDeep/wiki/Fiji-Command-%E2%80%93-3D-Denoising-(Planaria)" class="fijilink" title="Go to Fiji setup page" target="_blank"></a>
+						<a href="https://github.com/mpicbg-csbd/CSBDeep/wiki/KNIME-Workflow-%E2%80%93-3D-Denoising-(Planaria)" class="knimelink" title="Go to KNIME setup page" target="_blank"></a></span>
+					</div>
+				</div>
+				<div class="line">
+					<div class="box media" id="denoisingplanaria-res"><div class="img"></div></div>
+					<div class="box nexttomedia">
+						<p>Input and reconstructions of a trained CARE Network on previously unseen live imaging data
+						of <em>Schmidtea mediterranea.</em></p>
+						<p>We consistently observed that the reconstructed image data was of very high quality, even
+						if the signal to noise ratio (SNR) of the input was very low, e.g. being acquired with a
+						60-fold reduced light-dosage.</p>
+					</div>
+				</div>
+
+				<div class="line title">
+					<div class="box media" id="denoisingtribolium"><div class="img"></div></div>
+					<div class="box nexttomedia">
+						<em>scroll to see reconstructions...</em>
+						<h3>3D Denoising (Tribolium)</h3>
+						<span><a href="https://github.com/mpicbg-csbd/CSBDeep/wiki/Fiji-Command-%E2%80%93-3D-Denoising-(Tribolium)" class="fijilink" title="Go to Fiji setup page" target="_blank"></a>
+						<a href="https://github.com/mpicbg-csbd/CSBDeep/wiki/KNIME-Workflow-%E2%80%93-3D-Denoising-(Tribolium)" class="knimelink" title="Go to KNIME setup page" target="_blank"></a></span>
+					</div>
+				</div>
+				<div class="line">
+					<div class="box media" id="denoisingtribolium-res"><div class="img"></div></div>
+					<div class="box nexttomedia">
+						<p>Live-cell imaging of developing <em>Tribolium castaneum</em> (red flour beetle) embryos.
+						We employed the same training strategy as for the previous example.
+						Please note that the shown result is performed in full 3D, but only one 2D image slice
+						is shown.  </p>
+						<p>We observe high quality reconstructions even on extremely noisy input data with up to 70-fold
+						reduced light-dosage when compared to typical imaging protocols.</p>
+					</div>
+				</div>
+				<div class="line right title">
+					<div class="box media" id="isonetretina"><div class="img"></div></div>
+					<div class="box nexttomedia">
+						<em>scroll to see reconstructions...</em>
+						<h3>Isotropic Reconstruction (Retina)</h3>
+						<span><a href="https://github.com/mpicbg-csbd/CSBDeep/wiki/Fiji-Command-%E2%80%93-Isotropic-Reconstruction-(Retina)" class="fijilink" title="Go to Fiji setup page" target="_blank"></a>
+						<a href="https://github.com/mpicbg-csbd/CSBDeep/wiki/KNIME-Workflow-%E2%80%93-Isotropic-Reconstruction-(Retina)" class="knimelink" title="Go to KNIME setup page" target="_blank"></a></span>
+					</div>
+				</div>
+				<div class="line right">
+					<div class="box media" id="isonetretina-res"><div class="img"></div></div>
+					<div class="box nexttomedia">
+						<p>In contrast to previous examples, isotropic volumes that could be used as input/ground-truth
+						training pairs are not readily obtainable.
+						Therefore we propose to compute realistic observations from <em>real</em> ground-truth image
+						data <em>in-silico.</em></p>
+						<p>We applied this approach to 10-fold undersampled acquisitions of the developing retina
+						of <em>Danio rerio</em> (zebrafish) embryos and observed that the trained CARE Network
+						reconstructed isometric image data. </p>
+					</div>
+				</div>
+
+				<div class="line right title">
+					<div class="box media" id="projectionflywing"><div class="img"></div></div>
+					<div class="box nexttomedia">
+						<em>scroll to see reconstructions...</em>
+						<h3>Surface Projection (Flywing)</h3>
+						<span><a href="https://github.com/mpicbg-csbd/CSBDeep/wiki/Fiji-Command-%E2%80%93-Surface-Projection-(Flywing)" class="fijilink" title="Go to Fiji setup page" target="_blank"></a>
+						<a href="https://github.com/mpicbg-csbd/CSBDeep/wiki/KNIME-Workflow-%E2%80%93-Surface-Projection-(Flywing)" class="knimelink" title="Go to KNIME setup page" target="_blank"></a></span>
+					</div>
+				</div>
+				<div class="line right">
+					<div class="box media" id="projectionflywing-res"><div class="img"></div></div>
+					<div class="box nexttomedia">
+						<p>An extended CARE Network offers the possibility to reconstruct low SNR images and
+						simultaneously projects only relevant intensities embedded in imaged volumes.
+						It can be seen that our results are a considerable improved compared to the output of
+						other state-of-the-art projection algorithms (here we compare to results obtained by
+						<a href='https://github.com/CBlasse/premosa'>Premosa</a>).</p>
+					</div>
+				</div>
+
+				<div class="line right title">
+					<div class="box media" id="tubulessrrf"><div class="img"></div></div>
+					<div class="box nexttomedia">
+						<em>scroll to see reconstructions...</em>
+						<h3>Deconvolution (Microtubules)</h3>
+						<span><a href="https://github.com/mpicbg-csbd/CSBDeep/wiki/Fiji-Command-%E2%80%93-Deconvolution-(Microtubules)" class="fijilink" title="Go to Fiji setup page" target="_blank"></a>
+						<a href="https://github.com/mpicbg-csbd/CSBDeep/wiki/KNIME-Workflow-%E2%80%93-Deconvolution-(Microtubules)" class="knimelink" title="Go to KNIME setup page" target="_blank"></a></span>
+					</div>
+				</div>
+				<div class="line right">
+					<div class="box media" id="tubulessrrf-res"><div class="img"></div></div>
+					<div class="box nexttomedia">
+						<p>Finally we show an example where neither the real biological ground-truth nor the real image
+						degradation process is experimentally accessible, but a <em>synthetic</em> generative model of
+						image content and image degradation process is available.</p>
+						<p>The predictions of a CARE Network trained on fully synthetic training data shows that
+						wide-field acquisitions can yield high-quality reconstructions.</p>
+					</div>
+				</div>
+			</div>
+
+		</section>
+		<div class="wrapper flex"></div>
+		<footer>
+			<div class="wrapper">
+				<div class="box border nexttomedia">
+					<a href="impressum.html">Impressum</a>
+				</div>
+			</div>
+		</footer>
+	</div>
+  </body>
+</html>

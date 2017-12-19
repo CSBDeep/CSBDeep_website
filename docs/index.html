@@ -1,0 +1,147 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>CSBDeep</title>
+	<link rel=icon href=img/favicon.png>
+    <link rel="stylesheet" href="build/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,500" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body id="page-home">
+
+	<div class="vwrapper">
+
+		<div class="headergroup">
+			<header>
+				<div class="wrapper" id="headerimg"></div>
+			</header>
+			<div class="wrapper">
+				<div class="line firstline left">
+					<div class="box nexttomedia logobox">
+						<div class="box border">
+							<div id="logo"><a href="index.html"></a></div>
+						  	<ul>
+								<li><a href="https://github.com/mpicbg-csbd/CSBDeep/wiki">Go to <strong>WIKI</strong></a></li>
+								<li><a href="https://github.com/mpicbg-csbd/CSBDeep">View on <strong>GitHub</strong></a></li>
+								<li><a href="mailto:jug@mpi-cbg.de">Write a <strong>Mail</strong></a></li>
+						  	</ul>
+						</div>
+						<ul id="linkgallery" class="headerlink">
+							<li><a href="gallery.html">Go to <strong>Gallery</strong></a></li>
+					  	</ul>
+						<ul id="linkgallery" class="headerlink">
+							<li><a href="videos.html">Watch our <strong>Videos</strong></a></li>
+					  	</ul>
+						<ul id="linkgallery" class="headerlink">
+							<li><a href="paperspace.html">Try CARE on <strong>Paperspace</strong></a></li>
+					  	</ul>
+					</div>
+					<div class="box welcome">
+						<h2>CSBDeep, a toolbox for Content-aware Image Restoration (CARE)</h2>
+						<p>Fluorescence microscopy is a key driver of discoveries in the life-sciences, with observable phenomena being limited by the optics of the microscope, the chemistry of the fluorophores, and the maximum photon exposure tolerated by the sample. These limits necessitate trade-offs between imaging speed, spatial resolution, light exposure, and imaging depth. In this work we show how deep learning based content-aware restoration networks enables biological observations beyond the physical limitations of microscopes. On seven concrete examples we illustrate how  microscopy images can be restored even if 60-fold fewer photons are used during acquisition, how isotropic resolution can be achieved even with a 10-fold under-sampling along the axial direction, and how diffraction-limited structures can be resolved at 20-times higher frame-rates compared to state-of-the-art methods. All described restoration networks are freely available as open source software in Fiji and KNIME.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<section class="wrapper">
+
+			<!-- HOW TO -->
+
+			<div class="line right">
+				<h2 class="box" id="quickstart">How to start</h2>
+			</div>
+			<div class="line right">
+				<div class="box border media">
+					<ul>
+						<li>To use CSBDeep on our Paperspace server, click <a href="paperspace.html">here</a>.</li>
+						<li>To use CSBDeep in Fiji, follow <a href="https://github.com/mpicbg-csbd/CSBDeep/wiki/CSBDeep-in-Fiji">this guide</a>.</li>
+						<li>To use CSBDeep in KNIME, follow <a href="https://github.com/mpicbg-csbd/CSBDeep/wiki/CSBDeep-in-KNIME">this guide</a>.</li>
+					</ul>
+				</div>
+				<div id="fijilink" class="box border quadlink"><a href="https://github.com/mpicbg-csbd/CSBDeep/wiki/CSBDeep-in-Fiji"></a></div>
+				<div id="knimelink" class="box border quadlink"><a href="https://github.com/mpicbg-csbd/CSBDeep/wiki/CSBDeep-in-KNIME"></a></div>
+			</div>
+
+			<!-- CREDITS -->
+
+			<div class="line right">
+				<h2 class="box">Credits</h2>
+			</div>
+			<div class="line right">
+				<div class="box border">
+					<h3>Authors and Contributors</h3>
+					<p>
+						Martin Weigert<sup>1,2,*</sup>,
+						Uwe Schmidt<sup>1,2</sup>,
+						Tobias Boothe<sup>2</sup>,
+						Andreas M&uuml;ller<sup>8,9,10</sup>,
+						Alexandr Dibrov<sup>1,2</sup>,
+						Akanksha Jain<sup>2</sup>,
+						Benjamin Wilhelm<sup>1,6</sup>,
+						Deborah Schmidt<sup>1</sup>,
+						Coleman Broaddus<sup>1,2</sup>,
+						Si&acirc;n Culley<sup>4,5</sup>,
+						Mauricio Rocha-Martins<sup>1,2</sup>,
+						Fabi&aacute;n Segovia-Miranda<sup>2</sup>,
+						Caren Norden<sup>2</sup>,
+						Ricardo Henriques<sup>4,5</sup>,
+						Marino Zerial<sup>1,2</sup>,
+						Michele Solimena<sup>2,8,9,10</sup>,
+						Jochen Rink<sup>2</sup>,
+						Pavel Tomancak<sup>2</sup>,
+						Loic Royer<sup>1,2,7,*</sup>,
+						Florian Jug<sup>1,2,*</sup>
+						&amp; Eugene W. Myers<sup>1,2,3</sup>
+						<br /><br />
+						<sup>1</sup>  Center for Systems Biology Dresden (CSBD), Dresden, Germany<br />
+						<sup>2</sup>  Max-Planck Institute of Molecular Cell Biology and Genetics, Dresden, Germany<br />
+						<sup>3</sup>  Department of Computer Science, Technical University Dresden<br />
+						<sup>4</sup>  MRC Laboratory for Molecular Cell Biology, University College London, London, UK<br />
+						<sup>5</sup>  The Francis Crick Institute, London, UK<br />
+						<sup>6</sup>  University of Konstanz, Konstanz, Germany<br />
+						<sup>7</sup>  CZ Biohub, San Francisco, USA<br />
+						<sup>8</sup>  Molecular Diabetology, University Hospital and Faculty of Medicine Carl Gustav Carus, TU Dresden, Dresden, Germany<br />
+						<sup>9</sup>  Paul Langerhans Institute Dresden (PLID) of the Helmholtz Center Munich at the University Hospital Carl Gustav Carus and Faculty of Medicine of the TU Dresden, Dresden, Germany<br />
+						<sup>10</sup> German Center for Diabetes Research (DZD e.V.), Neuherberg, Germany<br />
+						<sup>*</sup>  Co-corresponding authors.
+					</p>
+				</div>
+			</div>
+			<div class="line right">
+				<div class="box border">
+					<h3>How to cite <em>CSBDeep</em></h3>
+					<code style="display: block;">
+						<em>paper currently submitted</em>
+					</code>
+				</div>
+			</div>
+			<div class="line right">
+				<div class="box border">
+					<h3>Acknowledgements</h3>
+					The authors want to thank Philipp Keller (Janelia) who provided Drosophila data.
+					We thank Suzanne Eaton (MPI-CBG), Franz Gruber and Romina Piscitello for sharing the expertise in fly imaging and providing fly lines. We thank Anke S&ouml;nmez for cell culture work.
+					We thank Marija Matejcic (MPI-CBG) for generating and sharing the LAP2B transgenic line Tg(bactin:eGFP-LAP2B).
+					We thank the following Services and Facilities of the MPI-CBG for their support:  Computer Department, Light Microscopy Facility (LMF) and Fish Facility.
+					This work was supported by the German Federal Ministry of Research and Education (BMBF) under the codes 031L0102 (de.NBI) and 031L0044 (Sysbio II).
+					M.S. was supported by the German Center for Diabetes Research (DZD e.V.).
+					R.H. and S.C. was supported grants from the UK BBSRC (BB/M022374/1; BB/P027431/1; BB/R000697/1), UK MRC (MR/K015826/1) and Wellcome Trust (203276/Z/16/Z).
+				</div>
+			</div>
+		</section>
+		<div class="wrapper flex"></div>
+		<footer>
+			<div class="wrapper">
+				<div class="box border nexttomedia">
+					<a href="impressum.html">Impressum</a>
+				</div>
+			</div>
+		</footer>
+	</div>
+  </body>
+</html>
