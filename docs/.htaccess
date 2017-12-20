@@ -1,0 +1,13 @@
+AuthType Basic
+AuthName "Protected Area"
+AuthUserFile /kunden/homepages/44/d18440447/htdocs/CSBDeep/.htpasswd
+require user CSBDeep, csbdeep
+
+<Files "*">
+Require valid-user
+</Files>
+
+<Files ~ "^(model-|CSBDeep_|exemplary-image-data)">
+Allow from all 
+Satisfy any
+</Files>
