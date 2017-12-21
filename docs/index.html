@@ -28,7 +28,7 @@
 						  	<ul>
 								<li><a href="https://github.com/mpicbg-csbd/CSBDeep/wiki">Go to <strong>WIKI</strong></a></li>
 								<li><a href="https://github.com/mpicbg-csbd/CSBDeep">View on <strong>GitHub</strong></a></li>
-								<li><a href="mailto:jug@mpi-cbg.de">Write a <strong>Mail</strong></a></li>
+								<li><a href="mailto:jug@mpi-cbg.de,mweigert@mpi-cbg.de,royer@mpi-cbg.de?subject=[CSBDeep]%20">Write a <strong>Mail</strong></a></li>
 						  	</ul>
 						</div>
 						<ul id="linkgallery" class="headerlink">
@@ -62,6 +62,11 @@
 						<li>To use CSBDeep on our Paperspace server, click <a href="paperspace.html">here</a>.</li>
 						<li>To use CSBDeep in Fiji, follow <a href="https://github.com/mpicbg-csbd/CSBDeep/wiki/CSBDeep-in-Fiji">this guide</a>.</li>
 						<li>To use CSBDeep in KNIME, follow <a href="https://github.com/mpicbg-csbd/CSBDeep/wiki/CSBDeep-in-KNIME">this guide</a>.</li>
+					</ul>
+					<strong>Notes</strong>
+					<ul>
+						<li>Each CARE network should be trained with data for a specific combination of image content (e.g., nuclei, microtubules) and image corruption (camera noise, pixel size, microscope PSF, etc.). Hence, applying trained networks to images that are very dissimilar to the training data could lead to unexpected results. The pretrained networks provided via Fiji and KNIME are meant to showcase our method on the accompanying example data.</li>
+						<li>Software for generating training data and training of CARE networks will be released soon. This will enable all users to employ CARE on their own image data.</li>
 					</ul>
 				</div>
 				<div id="fijilink" class="box border quadlink"><a href="https://github.com/mpicbg-csbd/CSBDeep/wiki/CSBDeep-in-Fiji"></a></div>
