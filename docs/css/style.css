@@ -318,6 +318,10 @@ header .line {
 	background: url(../img/fijilogo.png) no-repeat center center;
 }
 
+#pythonlink {
+	background: url(../img/pythonlogo.png) no-repeat center center;
+}
+
 #paperspacelink {
 	background: url(../img/paperspacelogo.png) no-repeat center center;
 }
