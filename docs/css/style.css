@@ -448,11 +448,16 @@ header .wrapper {
 	background: url(../img/fijilogo_color.png) no-repeat center center;
 }
 
+.pythonlink {
+	background: url(../img/pythonlogo_color.png) no-repeat center center;
+}
+
+
 .paperspacelink {
 	background: url(../img/paperspacelogo.png) no-repeat center center;
 }
 
-.gallery .knimelink, .gallery .fijilink, .gallery .paperspacelink {
+.gallery .knimelink, .gallery .fijilink,  .gallery .pythonlink, .gallery .paperspacelink {
 	width: 30px;
 	height: 30px;
 	background-size: auto 22px;
@@ -632,7 +637,7 @@ footer a {
 		padding: 15px 10px;
 	}
 
-	.gallery .fijilink, .gallery .knimelink, .gallery .paperspacelink {
+	.gallery .fijilink, .gallery .knimelink,  .gallery .pythonlink, .gallery .paperspacelink {
 		background-color: rgba(255,255,255,0.8);
 	}
 
