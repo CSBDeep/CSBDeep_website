@@ -452,7 +452,7 @@ header .wrapper {
 	background: url(../img/paperspacelogo.png) no-repeat center center;
 }
 
-.gallery .knimelink, .gallery .fijilink .paperspacelink {
+.gallery .knimelink, .gallery .fijilink, .gallery .paperspacelink {
 	width: 30px;
 	height: 30px;
 	background-size: auto 22px;
@@ -632,7 +632,7 @@ footer a {
 		padding: 15px 10px;
 	}
 
-	.gallery .fijilink, .gallery .knimelink .paperspacelink {
+	.gallery .fijilink, .gallery .knimelink, .gallery .paperspacelink {
 		background-color: rgba(255,255,255,0.8);
 	}
 
