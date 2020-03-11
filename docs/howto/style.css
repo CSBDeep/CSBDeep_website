@@ -1,0 +1,25 @@
+html, body {
+    background: #e1e1e3;
+}
+
+.csbdeep {
+    display: flex;
+    flex-direction: column;
+}
+
+.csbdeep > *{
+    margin: 10px;
+    padding: 10px 20px;
+}
+
+.block {
+    background: #f1f1f3;
+    padding: 10px;
+    margin: 10px;
+}
+
+.block .block {
+    margin: 5px;
+    background: white;
+    display: block;
+}
