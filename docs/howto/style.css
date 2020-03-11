@@ -16,11 +16,10 @@ html, body {
     background: #f1f1f3;
     padding: 10px;
     margin: 10px;
-    display: flex;
-    flex-direction: column;
 }
 
 .block .block {
     margin: 5px;
     background: white;
+    display: block;
 }

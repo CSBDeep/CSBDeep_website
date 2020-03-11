@@ -11,23 +11,97 @@
 		<div class="block">
 			<h3>CARE networks</h3>
 			<h4>Related publications / credits</h4>
+			<div class="block">
+				<p>
+					<strong>Please see the paper in <a href="http://dx.doi.org/10.1038/s41592-018-0216-7">Nature Methods</a>.</strong>
+					(Preprint on <a href="https://biorxiv.org/content/early/2018/07/03/236463">bioRxiv</a>)
+				</p>
+				<p>
+					Supplementary material can be downloaded <a href="https://www.biorxiv.org/highwire/filestream/109407/field_highwire_adjunct_files/0/236463-1.pdf">here</a>.
+				</p>
+				<h5>Authors and Contributors</h5>
+				<p>
+					Martin Weigert<sup>1,2,*</sup>,
+					Uwe Schmidt<sup>1,2</sup>,
+					Tobias Boothe<sup>2</sup>,
+					Andreas Müller<sup>8,9,10</sup>,
+					Alexandr Dibrov<sup>1,2</sup>,
+					Akanksha Jain<sup>2</sup>,
+					Benjamin Wilhelm<sup>1,6</sup>,
+					Deborah Schmidt<sup>1</sup>,
+					Coleman Broaddus<sup>1,2</sup>,
+					Siân Culley<sup>4,5</sup>,
+					Mauricio Rocha-Martins<sup>1,2</sup>,
+					Fabián Segovia-Miranda<sup>2</sup>,
+					Caren Norden<sup>2</sup>,
+					Ricardo Henriques<sup>4,5</sup>,
+					Marino Zerial<sup>1,2</sup>,
+					Michele Solimena<sup>2,8,9,10</sup>,
+					Jochen Rink<sup>2</sup>,
+					Pavel Tomancak<sup>2</sup>,
+					Loic Royer<sup>1,2,7,*</sup>,
+					Florian Jug<sup>1,2,*</sup>
+					&amp; Eugene W. Myers<sup>1,2,3</sup>
+					<br><br>
+					<sup>1</sup>  Center for Systems Biology Dresden (CSBD), Dresden, Germany<br>
+					<sup>2</sup>  Max-Planck Institute of Molecular Cell Biology and Genetics, Dresden, Germany<br>
+					<sup>3</sup>  Department of Computer Science, Technical University Dresden<br>
+					<sup>4</sup>  MRC Laboratory for Molecular Cell Biology, University College London, London, UK<br>
+					<sup>5</sup>  The Francis Crick Institute, London, UK<br>
+					<sup>6</sup>  University of Konstanz, Konstanz, Germany<br>
+					<sup>7</sup>  CZ Biohub, San Francisco, USA<br>
+					<sup>8</sup>  Molecular Diabetology, University Hospital and Faculty of Medicine Carl Gustav Carus, TU Dresden, Dresden, Germany<br>
+					<sup>9</sup>  Paul Langerhans Institute Dresden (PLID) of the Helmholtz Center Munich at the University Hospital Carl Gustav Carus and Faculty of Medicine of the TU Dresden, Dresden, Germany<br>
+					<sup>10</sup> German Center for Diabetes Research (DZD e.V.), Neuherberg, Germany<br>
+					<sup>*</sup>  Co-corresponding authors.
+				</p>
+			</div>
 			<h4>Acknowledgements</h4>
-			<h4>Gallery</h4>
-			<h4>Videos</h4>
+			<div class="block">
+				The authors want to thank Philipp Keller (Janelia) who provided Drosophila data.
+				We thank Suzanne Eaton (MPI-CBG), Franz Gruber and Romina Piscitello for sharing the expertise in fly imaging and providing fly lines. We thank Anke Sönmez for cell culture work.
+				We thank Marija Matejcic (MPI-CBG) for generating and sharing the LAP2B transgenic line Tg(bactin:eGFP-LAP2B). We thank Benoit Lombardot from the Scientific Computing Facility (MPI-CBG).
+				We thank the following Services and Facilities of the MPI-CBG for their support:  Computer Department, Light Microscopy Facility (LMF) and Fish Facility.
+				This work was supported by the German Federal Ministry of Research and Education (BMBF) under the codes 031L0102 (de.NBI) and 031L0044 (Sysbio II).
+				M.S. was supported by the German Center for Diabetes Research (DZD e.V.).
+				R.H. and S.C. was supported grants from the UK BBSRC (BB/M022374/1; BB/P027431/1; BB/R000697/1), UK MRC (MR/K015826/1) and Wellcome Trust (203276/Z/16/Z).
+			</div>
+			<h4><a href="">Gallery</a></h4>
+			<h4><a href="">Videos</a></h4>
+			<h4>Source code</h4>
+			<div class="block">
+				<h5><a href="https://github.com/CSBDeep/CSBDeep">CSBDeep in Python</a></h5>
+				<h5><a href="https://github.com/CSBDeep/CSBDeep">CSBDeep in Java / Fiji</a></h5>
+			</div>
 			<h4>How to use the CARE networks in Python</h4>
 			<div class="block">
-				<h5>Installation</h5>
+				<h5><a href="https://csbdeep.bioimagecomputing.com/doc/install.html">Installation</a></h5>
 			</div>
 			<div class="block">
-				<h5>Training</h5>
+				<h5><a href="https://csbdeep.bioimagecomputing.com/doc/models.html">Model overview</a></h5>
 			</div>
 			<div class="block">
-				<h5>Prediction</h5>
+				<h5><a href="https://csbdeep.bioimagecomputing.com/doc/datagen.html">Training data generation</a></h5>
+			</div>
+			<div class="block">
+				<h5><a href="https://csbdeep.bioimagecomputing.com/doc/training.html">Training</a></h5>
+			</div>
+			<div class="block">
+				<h5><a href="https://csbdeep.bioimagecomputing.com/doc/prediction.html">Prediction</a></h5>
 			</div>
 			<h4>How to export trained CARE networks from Python for Fiji and KNIME</h4>
+			<div class="block">
+				Call this method to export after training to export a model as a ZIP which is compatible to <a href="">running prediction in Fiji</a>:
+				<pre><code>
+model.export_TF()
+				</code></pre>
+			</div>
 			<h4>How to use CARE networks in Fiji</h4>
 			<div class="block">
 				<h5>Installation</h5>
+				<ol>
+					<li>Open the updater and enable update site <code>CSBDeep</code></li>
+				</ol>
 			</div>
 			<div class="block">
 				<h5>Prediction</h5>
@@ -42,28 +116,32 @@
 		</div>
 		<div class="block">
 			<h3>StarDist</h3>
-			<h4>Related publications / credits</h4>
-			<h4>Acknowledgements</h4>
-			<h4>Gallery</h4>
-			<h4>Videos</h4>
+			<h4><a href="https://github.com/mpicbg-csbd/stardist#how-to-cite">Related publications / credits</a></h4>
+<!--			<h4>Gallery</h4>-->
+<!--			<h4>Videos</h4>-->
+			<h4>Source code</h4>
+			<div class="block">
+				<h5><a href="https://github.com/mpicbg-csbd/stardist">StarDist in Python</a></h5>
+				<h5><a href="https://github.com/mpicbg-csbd/stardist-imagej">StarDist in Java / Fiji</a></h5>
+			</div>
 			<h4>How to use the StarDist in Python</h4>
 			<div class="block">
-				<h5>Installation</h5>
+				<h5><a href="https://github.com/mpicbg-csbd/stardist#installation">Installation</a></h5>
 			</div>
 			<div class="block">
-				<h5>Training</h5>
+				<h5><a href="https://github.com/mpicbg-csbd/stardist#annotating-images">Data annotation</a></h5>
 			</div>
 			<div class="block">
-				<h5>Prediction</h5>
+				<h5><a href="https://github.com/mpicbg-csbd/stardist#usage">Training & prediction</a></h5>
 			</div>
 			<h4>How to export trained StarDist model from Python for Fiji</h4>
-			<h4>How to use StarDist in Fiji</h4>
 			<div class="block">
-				<h5>Installation</h5>
+				Call this method to export after training to export a model as a ZIP which is compatible to <a href="">running prediction in Fiji</a>:
+				<pre><code>
+model.export_TF()
+				</code></pre>
 			</div>
-			<div class="block">
-				<h5>Prediction</h5>
-			</div>
+			<h4><a href="https://imagej.net/StarDist">How to use StarDist in Fiji</a></h4>
 		</div>
 		<div class="block">
 			<h3>N2V</h3>
@@ -95,8 +173,12 @@
 			<h4>FAQ</h4>
 			<div class="block">
 				<h5>How long do I have to train?</h5>
+				Longer. 100 sepochs with 300 steps each for example.
 				<h5>How much data do I need for training?</h5>
-				<h5>What about SEM / TEM?</h5>
+Don't go much smaller than 5000K pixels, e.g. 2000x3000 or 1000x1000x5, ... The more the merrier! If you use the Fiji plugin, you place many of them in the same folder and run the "train on folder" command pointing to this folder. You can use the same folder for training and validation, it will split up the data automatically and use 90% for training and 10% for validation.
+				<h5>What about SEM / TEM / CMOS?</h5>
+				<h5>Do training and test data need to be of the same dimensions?</h5>
+				No. You can train on bigger images and run the prediction on smaller images. The training data is internally split up into pieces and only a random subset of each batch is fed into the network. You also train on stacks, it'll split them up again into batches internally.
 			</div>
 		</div>
 	</div>
